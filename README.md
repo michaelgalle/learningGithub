@@ -61,5 +61,23 @@ let x = 6;
 console.log(x);
 ```
 
+# GitHub Markdown Additions - Github flavored markdown (GFM)
+
+## Footnotes
+This is footnote [^1]. We keep writing and then add another footnote [^2]
+
+These footnotes will be placed at the bottom of the page
+[^1]: Reference for footnote 1
+[^2]: Reference for footnote 2
+
+## Tables
+| First col | Second col | Third col |
+|:----      | :----:     | ----:     |
+| A         |     B      |     C     |
+| D         |     E      |  F        |
+
+
+Notice that the ':' in the second row deals with alignment left, centre, right
+
 
 
