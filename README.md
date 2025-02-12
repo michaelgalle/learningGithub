@@ -80,4 +80,60 @@ These footnotes will be placed at the bottom of the page
 Notice that the ':' in the second row deals with alignment left, centre, right
 
 
+## Task (unordered) list that is checkable
+- [x] first (checked)
+  - [ ] first subheading (unchecked)
+- [x] second is checked
+- [ ] third is unchecked
+- [x] fourth item in list
+
+## Colapsed details (in HTML)
+<details>
+  <summary>This is the first title of the collapsed item</summary>
+  This is the hidden text in the collapsed section
+</details>
+<details>
+  <summary>This is the second title of the collapsed item</summary>
+  This is the hidden text in the second collapsed section
+</details>
+
+
+## Drag and Drop
+You can drag and drop images into the edit tool
+
+## Using '#' for issues or pull requests (if add number), '@' for mentions, ':' for emojis, and '\ ' for escape characters
+🫀
+@michaelgalle
+`#FFFFFF` - This is a color
+#1  - This is an issue or pull request
+'\n' - This is a newline
+
+Note: These are useful in the Pull request box 
+
+
+## Alert Syntax
+> [!NOTE]
+> This is a note
+
+> [!IMPORTANT]
+> This is important
+
+> [!Warning]
+> THis is a warning
+
+## Special content like Mermaid graphs
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+```
+
+## Any HTML (with some exceptions)
+<h1>This is heading 1</h1>
+<p>This is paragraph 1</p>
+<p>Ordered lists</p>
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+</ol>
 
